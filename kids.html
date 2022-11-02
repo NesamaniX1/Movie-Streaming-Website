@@ -49,7 +49,13 @@
   color:red;
   }
 
-
+ .nav-item :hover{
+  margin-bottom: 10px;
+  /* background-color: aquamarine; */
+  border-bottom: 3px;
+  border-color: red;
+  border-bottom-style: solid;
+}
   .scroll-bar {
   height: auto;
   width: auto;
@@ -86,10 +92,19 @@
     }
 
     /* navbar css */
+    .navbar-nav{
+  display: flex;
+  align-items: center;
+  padding: 0px 7.5px;
+}
+
     #header-nav .nav-link {
   color: white;
   font-size: 20px;
   margin-left: 20px;
+
+
+
 }
     @media only screen and (max-width: 1400px){
   #header-nav .nav-link {
@@ -149,9 +164,6 @@
 }
 
 /* Genre dropdown */
-.dropdown{
-  margin-bottom: 15px;
-}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -288,10 +300,10 @@ font-size:30px;
 width:40px;
 height:40px;
 margin-top:30px;
+padding:5px;
 }
 .footer-middle a i:hover{
 background-color:white;
-padding:5px;
 border-radius:50px;
 color:red;
 }
